@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{ff5e0777-35a5-4fca-b146-1a02a2682e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Printer">
+      <UniqueIdentifier>{8cb61fc4-cfc4-4172-9385-f4d37b0359d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph\Edge">
+      <UniqueIdentifier>{1c34831f-af9b-43e2-ada1-af10e5f07642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph\Vertex">
+      <UniqueIdentifier>{fbc92b8c-1fe2-4ad7-91b4-5a6fa6364e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CompleteGraphFactory">
+      <UniqueIdentifier>{fcfe66b0-cec1-413b-8eac-84e569d8bf28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CompleteGraphFactory\Parser">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="CompleteGraphFactory\Parser\VertexData">
+      <UniqueIdentifier>{aadf8c2d-53eb-4f69-b3cd-85bd37954c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinnimalSpanningTreeAlgorithm">
+      <UniqueIdentifier>{dce822c2-850c-4da1-b492-8a522d1fd6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinnimalSpanningTreeAlgorithm\Disjoint Set Union">
+      <UniqueIdentifier>{3792a3d9-537b-451f-832e-71e60f67f605}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Parser.hpp">
+      <Filter>CompleteGraphFactory\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.hpp">
+      <Filter>Graph\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="CompleteGraphFactory.hpp">
+      <Filter>CompleteGraphFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.hpp">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="MininalSpanningTreeAlgorithm.hpp">
+      <Filter>MinnimalSpanningTreeAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="KruskalsAlgorithm.hpp">
+      <Filter>MinnimalSpanningTreeAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphsEdgesPrinter.hpp">
+      <Filter>Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.hpp">
+      <Filter>CompleteGraphFactory\Parser\VertexData</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.hpp">
+      <Filter>Graph\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserExceptions.hpp">
+      <Filter>CompleteGraphFactory\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphExceptions.hpp">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexHasher.hpp">
+      <Filter>Graph\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="EdgeHasher.hpp">
+      <Filter>Graph\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="EdgeLengthComparator.hpp">
+      <Filter>Graph\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="DisjointSetUnion.hpp">
+      <Filter>MinnimalSpanningTreeAlgorithm\Disjoint Set Union</Filter>
+    </ClInclude>
+    <ClInclude Include="DisjointSetUnionExceptions.hpp">
+      <Filter>MinnimalSpanningTreeAlgorithm\Disjoint Set Union</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Graph\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="CompleteGraphFactory.cpp">
+      <Filter>CompleteGraphFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>CompleteGraphFactory\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphsEdgesPrinter.cpp">
+      <Filter>Printer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexData.cpp">
+      <Filter>CompleteGraphFactory\Parser\VertexData</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge.cpp">
+      <Filter>Graph\Edge</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexHasher.cpp">
+      <Filter>Graph\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeHasher.cpp">
+      <Filter>Graph\Edge</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphBuilder.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeLengthComparator.cpp">
+      <Filter>Graph\Edge</Filter>
+    </ClCompile>
+    <ClCompile Include="DisjointSetUnion.cpp">
+      <Filter>MinnimalSpanningTreeAlgorithm\Disjoint Set Union</Filter>
+    </ClCompile>
+    <ClCompile Include="KruskalsAlgorithm.cpp">
+      <Filter>MinnimalSpanningTreeAlgorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

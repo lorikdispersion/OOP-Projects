@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ParserTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="EdgeTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexHasherTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeHasherTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeLengthComparatorTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexDataTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DisjointSetUnionTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmTests.cpp">
+      <Filter>Classes Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Classes Tests">
+      <UniqueIdentifier>{0ba81dc5-8f8e-4c70-8082-6440f4d0b2f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

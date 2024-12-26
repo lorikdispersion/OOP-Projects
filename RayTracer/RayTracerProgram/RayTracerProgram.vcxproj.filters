@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ConsoleUI">
+      <UniqueIdentifier>{4e1fa618-a197-4799-b542-47f0ee421dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialParser">
+      <UniqueIdentifier>{373f32c9-0436-4686-84f1-791067c52a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialFactory">
+      <UniqueIdentifier>{cc17814b-e939-435b-9261-d69a96e3d98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HittableParser">
+      <UniqueIdentifier>{663a9a3f-3600-4b40-919f-65aac6c8dc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HittableFactory">
+      <UniqueIdentifier>{9a7c754c-72cf-446b-b91d-f99990439de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialParser\MaterialDTO">
+      <UniqueIdentifier>{d8aabec4-e5ae-41c4-93e4-b103b21d1809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HittableParser\HittableDTO">
+      <UniqueIdentifier>{4298bc7f-1685-4385-9525-bc784596fb79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleUI.hpp">
+      <Filter>ConsoleUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialParser.hpp">
+      <Filter>MaterialParser</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialDTO.hpp">
+      <Filter>MaterialParser\MaterialDTO</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalDTO.hpp">
+      <Filter>MaterialParser\MaterialDTO</Filter>
+    </ClInclude>
+    <ClInclude Include="LambertianDTO.hpp">
+      <Filter>MaterialParser\MaterialDTO</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialNameConvertor.hpp">
+      <Filter>MaterialParser\MaterialDTO</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialFactory.hpp">
+      <Filter>MaterialFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="HittableNameConvertor.hpp">
+      <Filter>HittableParser\HittableDTO</Filter>
+    </ClInclude>
+    <ClInclude Include="HittableDTO.hpp">
+      <Filter>HittableParser\HittableDTO</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereDTO.hpp">
+      <Filter>HittableParser\HittableDTO</Filter>
+    </ClInclude>
+    <ClInclude Include="HittableParser.hpp">
+      <Filter>HittableParser</Filter>
+    </ClInclude>
+    <ClInclude Include="HittableFactory.hpp">
+      <Filter>HittableFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleUI.cpp">
+      <Filter>ConsoleUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DielectricDTO.hpp">
+      <Filter>MaterialParser\MaterialDTO</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialParser.cpp">
+      <Filter>MaterialParser</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialFactory.cpp">
+      <Filter>MaterialFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="HittableParser.cpp">
+      <Filter>HittableParser</Filter>
+    </ClCompile>
+    <ClCompile Include="HittableFactory.cpp">
+      <Filter>HittableFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

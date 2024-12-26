@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Auditor.hpp">
+      <Filter>Auditor</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplacementDelegate.hpp">
+      <Filter>Delegates\Replace</Filter>
+    </ClInclude>
+    <ClInclude Include="WithReplacement.hpp">
+      <Filter>Delegates\Replace</Filter>
+    </ClInclude>
+    <ClInclude Include="WithoutReplacement.hpp">
+      <Filter>Delegates\Replace</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadAccessDelegate.hpp">
+      <Filter>Delegates\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadAllowed.hpp">
+      <Filter>Delegates\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDenied.hpp">
+      <Filter>Delegates\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadAllowedByKey.hpp">
+      <Filter>Delegates\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDeniedByKey.hpp">
+      <Filter>Delegates\Read</Filter>
+    </ClInclude>
+    <ClInclude Include="EraseAccessDelegate.hpp">
+      <Filter>Delegates\Erase</Filter>
+    </ClInclude>
+    <ClInclude Include="EraseAllowed.hpp">
+      <Filter>Delegates\Erase</Filter>
+    </ClInclude>
+    <ClInclude Include="EraseDenied.hpp">
+      <Filter>Delegates\Erase</Filter>
+    </ClInclude>
+    <ClInclude Include="EraseAllowedByKey.hpp">
+      <Filter>Delegates\Erase</Filter>
+    </ClInclude>
+    <ClInclude Include="EraseDeniedByKey.hpp">
+      <Filter>Delegates\Erase</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteAccessDelegate.hpp">
+      <Filter>Delegates\Write</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteAllowed.hpp">
+      <Filter>Delegates\Write</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteAllowedByKey.hpp">
+      <Filter>Delegates\Write</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteDenied.hpp">
+      <Filter>Delegates\Write</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteDeniedByKey.hpp">
+      <Filter>Delegates\Write</Filter>
+    </ClInclude>
+    <ClInclude Include="AuditorWith4Delegates.hpp">
+      <Filter>Auditor</Filter>
+    </ClInclude>
+    <ClInclude Include="AuditorExpections.hpp">
+      <Filter>Auditor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Delegates">
+      <UniqueIdentifier>{df435ab9-888a-4147-bb3e-fa247b59b1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auditor">
+      <UniqueIdentifier>{337c1964-1397-417e-8eb5-6742f06fefd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\Replace">
+      <UniqueIdentifier>{b669f64e-c349-4ccb-a0b6-0043da55f195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\Erase">
+      <UniqueIdentifier>{aa9d2113-91a4-4a16-b706-7e23bfd9fdaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\Read">
+      <UniqueIdentifier>{c1e2f97d-1c19-41e0-8d4d-6de3e0195796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\Write">
+      <UniqueIdentifier>{da49509b-5aa4-4e73-8434-8a1f5d6aa378}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AuditorWith4Delegates.cpp">
+      <Filter>Auditor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

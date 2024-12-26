@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Labirint_matrix">
+      <UniqueIdentifier>{fd8e053e-6ccc-4f7b-ae0e-3a87e13444c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wave_algorithm">
+      <UniqueIdentifier>{1c97f4b9-6aab-4154-8b3f-aa061b9b9e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{de8fe90c-48b6-46ec-8a1f-ea8a26e308b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{9cba4af6-1b39-457b-b4eb-6caaea3bf3d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cell_Type_Dictionary">
+      <UniqueIdentifier>{8436ff24-bb30-4b06-b7c5-f4ba54c35aa3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Labyrinth.cpp">
+      <Filter>Labirint_matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave_algorithm.cpp">
+      <Filter>Wave_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell_Type_Dictionary.cpp">
+      <Filter>Cell_Type_Dictionary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Labyrinth.hpp">
+      <Filter>Labirint_matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave_algorithm.hpp">
+      <Filter>Wave_algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.hpp">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.hpp">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell_Type_Dictionary.hpp">
+      <Filter>Cell_Type_Dictionary</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

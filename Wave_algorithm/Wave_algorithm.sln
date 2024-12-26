@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wave_algorithm", "Wave_algorithm\Wave_algorithm.vcxproj", "{8F369FF9-29E1-490E-8A46-86D2E61DBF79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wave_algorithm_tests", "Wave_algorithm_tests\Wave_algorithm_tests.vcxproj", "{4E3968A4-DD77-4DA8-8643-186A773C6428}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F369FF9-29E1-490E-8A46-86D2E61DBF79} = {8F369FF9-29E1-490E-8A46-86D2E61DBF79}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F369FF9-29E1-490E-8A46-86D2E61DBF79}.Debug|x64.ActiveCfg = Debug|x64
+		{8F369FF9-29E1-490E-8A46-86D2E61DBF79}.Debug|x64.Build.0 = Debug|x64
+		{8F369FF9-29E1-490E-8A46-86D2E61DBF79}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F369FF9-29E1-490E-8A46-86D2E61DBF79}.Debug|x86.Build.0 = Debug|Win32
+		{8F369FF9-29E1-490E-8A46-86D2E61DBF79}.Release|x64.ActiveCfg = Release|x64
+		{8F369FF9-29E1-490E-8A46-86D2E61DBF79}.Release|x64.Build.0 = Release|x64
+		{8F369FF9-29E1-490E-8A46-86D2E61DBF79}.Release|x86.ActiveCfg = Release|Win32
+		{8F369FF9-29E1-490E-8A46-86D2E61DBF79}.Release|x86.Build.0 = Release|Win32
+		{4E3968A4-DD77-4DA8-8643-186A773C6428}.Debug|x64.ActiveCfg = Debug|x64
+		{4E3968A4-DD77-4DA8-8643-186A773C6428}.Debug|x64.Build.0 = Debug|x64
+		{4E3968A4-DD77-4DA8-8643-186A773C6428}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E3968A4-DD77-4DA8-8643-186A773C6428}.Debug|x86.Build.0 = Debug|Win32
+		{4E3968A4-DD77-4DA8-8643-186A773C6428}.Release|x64.ActiveCfg = Release|x64
+		{4E3968A4-DD77-4DA8-8643-186A773C6428}.Release|x64.Build.0 = Release|x64
+		{4E3968A4-DD77-4DA8-8643-186A773C6428}.Release|x86.ActiveCfg = Release|Win32
+		{4E3968A4-DD77-4DA8-8643-186A773C6428}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B01F35C-652F-443B-833E-9C51C6BA65F4}
+	EndGlobalSection
+EndGlobal

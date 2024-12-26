@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Vector3d">
+      <UniqueIdentifier>{b427d5d2-283e-41f7-8da3-a3ef64373baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Color">
+      <UniqueIdentifier>{e1327d0e-29b1-406d-b7ac-20eb9610409e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ray">
+      <UniqueIdentifier>{44718816-e4f7-4207-be71-69f0e4041606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{2fbb23a3-0ba8-4395-bd68-fcdba9223003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{4fd1a84f-929c-4316-9158-e8d66711460d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Color\Attenuation">
+      <UniqueIdentifier>{d2698242-4720-4a09-a438-1732ca422366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material">
+      <UniqueIdentifier>{01b1b317-10df-47c3-9019-6dfdbe0fcf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material\Dielectric">
+      <UniqueIdentifier>{db61d07b-b8df-457c-910f-4f86b4119ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material\Lambertian">
+      <UniqueIdentifier>{b5211705-14bb-48c3-b843-5268104b3c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material\Metal">
+      <UniqueIdentifier>{0cb498f0-feb7-48eb-848c-f4412d39bdeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{497e8c96-205c-4f00-9e90-2ce62522d224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Picture">
+      <UniqueIdentifier>{20420613-2193-4c80-be07-2c592266f50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Background">
+      <UniqueIdentifier>{d3e4088e-6179-4394-ac8f-3e0f74b6f3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Hittable">
+      <UniqueIdentifier>{f7eaaa24-2c2d-4ec4-8b8c-fdaea9db54a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Hittable\Sphere">
+      <UniqueIdentifier>{0e285e08-bdc5-4248-8de1-8199c4748924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RayTracer">
+      <UniqueIdentifier>{5d3a323d-ce72-42d8-a9d4-7ef25f21f015}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RayTracer.hpp">
+      <Filter>RayTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3d.hpp">
+      <Filter>Vector3d</Filter>
+    </ClInclude>
+    <ClInclude Include="RGB256.hpp">
+      <Filter>Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.hpp">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="Hittable.hpp">
+      <Filter>Scene\Hittable</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.hpp">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.hpp">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="HitRecord.hpp">
+      <Filter>Scene\Hittable</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3dExceptions.hpp">
+      <Filter>Vector3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.hpp">
+      <Filter>Scene\Hittable\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Dielectric.hpp">
+      <Filter>Material\Dielectric</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambertian.hpp">
+      <Filter>Material\Lambertian</Filter>
+    </ClInclude>
+    <ClInclude Include="Metal.hpp">
+      <Filter>Material\Metal</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalExceptions.hpp">
+      <Filter>Material\Metal</Filter>
+    </ClInclude>
+    <ClInclude Include="Attenuation.hpp">
+      <Filter>Color\Attenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="AttenuationExceptions.hpp">
+      <Filter>Color\Attenuation</Filter>
+    </ClInclude>
+    <ClInclude Include="RGB256ColorPrinter.hpp">
+      <Filter>Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.hpp">
+      <Filter>Scene\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.hpp">
+      <Filter>Scene\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="PpmP3.hpp">
+      <Filter>Picture</Filter>
+    </ClInclude>
+    <ClInclude Include="PpmP3Exceptions.hpp">
+      <Filter>Picture</Filter>
+    </ClInclude>
+    <ClInclude Include="PpmP3Printer.hpp">
+      <Filter>Picture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RayTracer.cpp">
+      <Filter>RayTracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Scene\Hittable\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Dielectric.cpp">
+      <Filter>Material\Dielectric</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambertian.cpp">
+      <Filter>Material\Lambertian</Filter>
+    </ClCompile>
+    <ClCompile Include="Metal.cpp">
+      <Filter>Material\Metal</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB256.cpp">
+      <Filter>Color</Filter>
+    </ClCompile>
+    <ClCompile Include="Attenuation.cpp">
+      <Filter>Color\Attenuation</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3d.cpp">
+      <Filter>Vector3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Scene\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="PpmP3.cpp">
+      <Filter>Picture</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
